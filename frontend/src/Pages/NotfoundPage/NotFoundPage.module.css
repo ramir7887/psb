@@ -1,0 +1,12 @@
+.not_found {
+	margin: 100px auto;
+	height: 500px;
+	max-width: 500px;
+	background-image: url("https://sun9-85.userapi.com/impf/xBmmyWqkTY52l66P4vWYGsTakORTY6jGcJ5FHQ/s9hMMzVH-s0.jpg?size=1543x2076&quality=96&sign=b2c4c5f3221e6a7b6ce802bef2199ca2&type=album");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: var(--border-radius);
+	box-shadow: rgba(0, 0, 0, 0.04) 0 0 1px, rgba(0, 0, 0, 0.06) 0 0 2px,
+		rgba(0, 0, 0, 0.04) 0 4px 8px;
+}

@@ -1,0 +1,41 @@
+.logo {
+	color: #fff;
+}
+
+.sider__container {
+	.sider {
+		height: 100%;
+		background-color: var(--background-sider-left);
+		box-shadow: var(--box-shadow);
+	}
+	.sider.sider__right {
+		background-color: var(--background-sider-right);
+		box-shadow: none;
+		padding: 0;
+	}
+	.sider__menu {
+		background-color: var(--background-sider-left);
+	}
+	.sider__logo {
+		padding-left: 24px;
+		margin-bottom: 10px;
+		font-weight: 900;
+	}
+	.ant-menu-inline .ant-menu-item {
+		height: 52px;
+	}
+	.ant-layout-sider-trigger {
+		background-color: var(--primary-color);
+	}
+	.ant-menu-vertical > .ant-menu-item,
+	.ant-menu-vertical-left > .ant-menu-item,
+	.ant-menu-vertical-right > .ant-menu-item,
+	.ant-menu-inline > .ant-menu-item,
+	.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+	.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+	.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+	.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+		height: 52px;
+		line-height: 40px;
+	}
+}
